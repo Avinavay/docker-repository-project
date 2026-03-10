@@ -1,8 +1,7 @@
-version: "3.8"
-
 services:
   web:
-    build: .
+    image: docker-repository-project-web
     container_name: avinwebproject
     ports:
       - "8084:80"
+    build: .
