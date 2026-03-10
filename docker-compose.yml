@@ -1,7 +1,8 @@
 services:
   web:
-    image: docker-repository-project-web
+    image: nginx
     container_name: avinwebproject
     ports:
       - "8084:80"
-    build: .
+    volumes:
+      - .:/usr/share/nginx/html:cached

@@ -265,3 +265,7 @@
 1773174410.383248 sending message 208 to peer 0x102b5d720 (0 bytes)
 1773174498.214256 client_signal: Window size changes: 28
 1773174498.214320 sending message 208 to peer 0x102b5d720 (0 bytes)
+1773175209.575989 client_signal: Hangup: 1
+1773175209.576013 sending message 205 to peer 0x102b5d720 (0 bytes)
+1773175209.576165 peer 0x102b5d720 message 204
+1773175209.576168 client loop exit
